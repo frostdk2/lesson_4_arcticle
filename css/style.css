@@ -1,0 +1,128 @@
+@import "nullstyle.css";
+
+/* =================================================================================================================== */
+/* Если подключаем шрифты вручную */
+/* 
+	@font-face {
+		font-family: "CircularStd";
+		src: url("../fonts/CircularStd-Book.woff2") format("woff2"), url("../fonts/CircularStd-Book.woff") format("woff");
+		font-weight: 400;
+		font-style: normal;
+		font-display: swap;
+ 	} 
+	 
+	 */
+	/* ================================================================================================================ */
+
+	/* /* &display=swap - дописываем если нету (когда используем подгрузку шрифтов через @import/link */
+
+	/* ================================================================================================================ */
+
+	@font-face {
+		font-family: "Bahar-Regular";
+		src: url("../fonts/Bahar-Regular.woff2") format("woff2"), url("../fonts/Bahar-Regular.woff") format("woff");
+		font-weight: 400;
+		font-style: normal;
+		font-display: swap;
+	}
+
+		@font-face {
+			font-family: "Bahar-Bold";
+			src: url("../fonts/Bahar-Bold.woff2") format("woff2"), url("../fonts/Bahar-Bold.woff") format("woff");
+			font-weight: 700;
+			font-style: normal;
+			font-display: swap;
+		}
+
+		@font-face {
+			font-family: "Bahar-Heavy";
+			src: url("../fonts/Bahar-Heavy.woff2") format("woff2"), url("../fonts/Bahar-Heavy.woff") format("woff");
+			font-weight: 700;
+			font-style: normal;
+			font-display: swap;
+		}
+
+		body{
+			font-size: 18px;
+			font-family: 'Montserrat', serif;
+		}
+
+		.top{
+			font-size: 45px;
+			font-weight: 900;
+			line-height: 1.3;
+			text-align: center;
+		}
+
+		.attention{
+			color: orange;
+			font-size: 30px;
+			font-family: 'Bahar-Heavy', serif;
+			text-indent: 30px;
+			font-weight: 700;
+			text-align: center;
+			text-decoration: underline;
+			text-transform: uppercase;
+		}
+
+		.text.info{
+			font-family: 'Bahar-Heavy', serif;
+			font-size: 20px;
+			font-weight: 400;
+			color: red;
+			text-shadow: 1px 2px 30px rgb(48, 48, 48);
+			text-align: center;
+		}
+
+		.text{
+			line-height: 1.3;
+			color: olive;
+			font-style: italic;
+			text-indent: 30px;
+			letter-spacing: 2px;
+		}
+
+		.text-two{
+			text-align: center;
+			font-family: 'Bahar-Regular', serif;
+			color: palevioletred;
+			letter-spacing: 1px;
+			line-height: 1.2;
+		}
+
+		.source{
+			color: blue;
+			text-indent: 30px;
+			text-align: right;
+		}
+
+		span{
+			font-family: "Bahar-Heavy",serif;
+			font-weight: 900;
+			font-size: 25px;
+			letter-spacing: 2px;
+			line-height: 1.5;
+		}
+
+		.up{
+			font-family: "Bahar-Heavy",serif;
+			font-size: 45px;
+			font-weight: 900;
+			letter-spacing: 3px;
+			text-decoration: underline;
+			color: indigo;
+		}
+
+		.link{
+			font-size: 50px;
+			text-align: right;
+			font-style: italic;
+
+		}
+
+		.link span{
+			font-size: 60px;
+			color: yellowgreen;
+			font-style: italic;
+			text-decoration: overline;
+		}
