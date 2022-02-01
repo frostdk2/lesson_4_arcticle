@@ -1,23 +1,5 @@
 @import "nullstyle.css";
 
-/* =================================================================================================================== */
-/* Если подключаем шрифты вручную */
-/* 
-	@font-face {
-		font-family: "CircularStd";
-		src: url("../fonts/CircularStd-Book.woff2") format("woff2"), url("../fonts/CircularStd-Book.woff") format("woff");
-		font-weight: 400;
-		font-style: normal;
-		font-display: swap;
- 	} 
-	 
-	 */
-	/* ================================================================================================================ */
-
-	/* /* &display=swap - дописываем если нету (когда используем подгрузку шрифтов через @import/link */
-
-	/* ================================================================================================================ */
-
 	@font-face {
 		font-family: "Bahar-Regular";
 		src: url("../fonts/Bahar-Regular.woff2") format("woff2"), url("../fonts/Bahar-Regular.woff") format("woff");
